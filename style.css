@@ -1,0 +1,336 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+/* Navbar srection */
+.navbar {
+    background: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+    box-shadow: 0 1px 4px rgb(0, 0, 0, 0.9), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.heading_list {
+    display: flex;
+    list-style-type: none;
+}
+
+.heading_list li {
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.heading_list li a {
+    padding: 1.2rem;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+
+.heading_list li a:hover {
+    background-color: whitesmoke;
+}
+
+/* Hero Srection */
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+.hero .content {
+    display: flex;
+    align-items: center;
+}
+
+.hero .content span {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 5rem;
+}
+
+.hero .image img {
+    width: 60%;
+    padding: 4rem;
+    margin-right: 150px;
+    filter: drop-shadow(0px 10px 3px black);
+}
+
+.head_service {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+/* main_service Section */
+.head_service h1 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.service {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5rem;
+}
+
+.service .service1 {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: var(--shd, 0 1px 4px rgba(0, 0, 0, .6));
+}
+
+.service .service1 img {
+    padding: 1.2rem;
+}
+
+.service .service1 h1 {
+    justify-content: center;
+    text-align: center;
+}
+
+.service .service1 p {
+    justify-content: center;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.service .service2 {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: var(--shd, 0 1px 4px rgba(0, 0, 0, .6));
+}
+
+.service .service2 img {
+    padding: 1.2rem;
+}
+
+.service .service2 h1 {
+    justify-content: center;
+    text-align: center;
+}
+
+.service .service2 p {
+    justify-content: center;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+/* project */
+.project {
+    padding: 1.2rem;
+}
+
+.project h1 {
+    font-size: 40px;
+    text-decoration: underline;
+    justify-content: center;
+    text-align: center;
+    padding: 1.2rem;
+}
+
+.project .image {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;  
+}
+
+.project-img {
+    width: 47vw;
+    height: auto;
+    padding:3rem;
+    border:1px solid black;
+}
+
+.project-img .img img{
+    height:100%;
+    width:100%;
+}
+.project-img .img {
+    height:100%;
+    width:100%;
+}
+
+
+
+/* pricing */
+.pricing {
+    padding: 1.2rem;
+}
+
+.pricing h1 {
+    font-size: 40px;
+    text-decoration: underline;
+    justify-content: center;
+    text-align: center;
+    padding: 1.2rem;
+}
+
+.pricing .pricing_container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+.pricing .pricing_container .pricing_of_web,
+.pricing .pricing_container .pricing_of_seo {
+    background-color: black;
+    color: white;
+    padding: 1.2rem;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.pricing .pricing_container .pricing_of_web p,
+.pricing .pricing_container .pricing_of_seo p {
+    text-align: center;
+    font-size: 30px;
+    padding: 0.4rem;
+}
+
+.pricing .pricing_container .pricing_of_web h3,
+.pricing .pricing_container .pricing_of_seo h3 {
+    text-align: center;
+    padding: 0.4rem;
+    font-size: 30px;
+}
+
+.pricing .pricing_container .pricing_of_web ul li,
+.pricing .pricing_container .pricing_of_seo ul li {
+    padding: 0.5rem;
+    margin-left: 70px;
+}
+
+/* contact */
+.contact {
+    background: #000000;
+    color: white;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 1.6rem;
+    margin-top: 50px;
+}
+
+.contact h1 {
+    font-size: 40px;
+    text-align: center;
+    padding: 1.2rem;
+}
+
+.contact .form label {
+    font-size: 30px;
+}
+
+.contact .form input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact .form input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact .form input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact .form input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact .form button {
+    width: 50%;
+    color: black;
+    font-size: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.contact .form button:hover {
+    background: rgb(87, 83, 83);
+}
+
+/* About Me */
+
+.about_container {
+    display: flex;
+    background: black;
+    color: white;
+    margin-top: 50px;
+}
+
+.about .about_container .image img {
+    width: 50%;
+    padding: 40px;
+    margin-left: 80px;
+    box-shadow: var(--shd, 0 1px 4px rgba(0, 0, 0, .6));
+}
+
+.about .about_container .content_of_aboutme {
+    font-size: 20px;
+    margin-right: 150px;
+    padding: 40px;
+}
+
+.about .about_container .content_of_aboutme h1 {
+    text-align: center;
+    padding: 1.2rem;
+}
+
+.about .about_container .content_of_aboutme p {
+    justify-content: center;
+    font-size: 25px;
+    padding: 15px;
+    margin: 20px 0 10px;
+}
+
+/* Footer */
+.footer {
+    margin-top: 10%;
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
